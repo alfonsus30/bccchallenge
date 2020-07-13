@@ -1,0 +1,22 @@
+.movie_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.movie-content h2{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.movie-content h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    margin: 7px auto;
+    height: 2px;
+    width: 10%;
+    background-color: #F8C659; 
+}
